@@ -38,3 +38,22 @@ An employee with ... ... ... has received Rs ... ... ...as a bonus
 and
 
 had worked ... ... ... hours as overtime in the year ... ... ...
+
+
+
+* Write a program that has a class to represent time. The class should have constructors to initialize data members hour, minute, and second to 0 and to initialize them to values passed as arguments. The class should have a member function to add time objects and return the result as a time object. There should be functions to display time in 12-hour and 24-hour format.
+
+* Write a program that has a class with a dynamically allocated character array as its data member. One object should contain "Engineers are" and another should contain " Creatures of logic". Member function join() should concatenate two strings by passing two objects as arguments. Display the concatenated string through a member function. Use constructors to allocate and initialize the data member. Also, write a destructor to free the allocated memory for the character array. Make your own function for the concatenation of two strings.
+
+* Write a class that can store Department ID and Department Name with constructors to initialize its members. Write destructor member in the same class and display the message "Object n goes out of the scope". Your program should be made such that it should show the order of constructor and destructor invocation.
+
+
+* Write a program that illustrates the following relationship and comment on them. 
+
+i) const_object.non_const_mem_function
+
+ii) const_object.const_mem_function
+
+iii) non_const_object.non_const_mem_function
+
+iv) non_const_object.const_mem_function
